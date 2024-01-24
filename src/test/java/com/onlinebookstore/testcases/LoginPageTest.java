@@ -56,9 +56,5 @@ public class LoginPageTest extends TestBase {
         homePage = loginPage.performAdminLogin("", "");
         loginPage.verifyErrorMessageForInvalidAdminLogin();
     }
-    @Test
-    public void sampleTest() {
-        log.info("I am writing a sample log into test log");
-    }
 
 }
